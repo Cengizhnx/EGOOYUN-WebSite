@@ -344,7 +344,7 @@ body{
 	border-color: #0a5d8e;
 	border-radius: 3px;
     border-width: 0px 0px 0px 5px;
-	background-image: url("images/banner1.jpg");
+	background-image: url("../images/banner1.jpg");
     background-position: center;
     float:left;
 }
@@ -356,7 +356,7 @@ body{
 	border-color: #fff;
 	border-radius: 3px;
     border-width: 0px 0px 0px 5px;
-	background-image: url("images/banner3.jpg");
+	background-image: url("../images/banner3.jpg");
     background-position: center;
     float:left;
 }
