@@ -46,6 +46,7 @@
     border:none;
     border-bottom: 1px solid rgba(0, 0, 0, .5);
     transition: all .2s ease-in-out;
+    resize: none;
 }
 
 .qaContent .qa input[type=text]:focus{
