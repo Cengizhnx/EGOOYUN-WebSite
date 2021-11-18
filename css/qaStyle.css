@@ -1,7 +1,7 @@
 .qaContent{
     width: 100%;
-    height: auto; 
-    margin: 0px 0px 5px 5px;
+    height: calc(100vh - 320px);
+    margin: -10px 0px 0px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +14,6 @@
 }
 
 .qaContent .qa label{
-    width: 100%;
     display: block;
     padding: 8px 8px 8px 4px;
     margin-bottom: 16px;
@@ -54,11 +53,14 @@
 }
 
 .qaContent .qa button{
-    width: 280px;
+    width: 100%;
     background-color: #0E8EF0;
     color:white;
     padding: 12px;
     border:0px;
     border-radius: 4px;
+}
 
+.qaContent iframe{
+    margin-left: 12px;
 }
