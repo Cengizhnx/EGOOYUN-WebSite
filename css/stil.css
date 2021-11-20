@@ -41,16 +41,20 @@ body{
 
     height:600px;
 	
-	margin-right: 12.5px;
+	margin-top: 15px;
+	
+	margin-right: 24.5px;
 	
     float:right;
+	
+	background-color: aqua;
 }
 .footer {
     clear: both;
     position: relative;
-    height: 200px;
-	bottom: 0;
-    margin-top: -200px;
+    height: 245px;
+	bottom:0px;
+    margin-top: 25px;
 	background-color: black;
 }
 
@@ -343,8 +347,8 @@ body{
 	border-style: solid; 
 	border-color: #0a5d8e;
 	border-radius: 3px;
-    border-width: 0px 0px 0px 5px;
-	background-image: url("images/banner1.jpg");
+    border-width: 0px 0px 0px 7px;
+	background-image: url("banner1.jpg");
     background-position: center;
     float:left;
 }
@@ -353,10 +357,10 @@ body{
     height:45px;
 	margin: 0px 0px 5px 75px;
 	border-style: solid; 
-	border-color: #fff;
+	border-color: #000;
 	border-radius: 3px;
-    border-width: 0px 0px 0px 5px;
-	background-image: url("images/banner3.jpg");
+    border-width: 0px 0px 0px 7px;
+	background-image: url("banner3.jpg");
     background-position: center;
     float:left;
 }
@@ -482,9 +486,8 @@ body{
 .altmenu{
 	text-align: center;
 	height: 20px;
-		padding: 30px;
+	padding: 30px;
 	color:white;
-
 
 }
 .altmenu a{
@@ -500,20 +503,36 @@ body{
 }
 
 .sosyal{
-	height: 50px;
-	padding: 30px;
+	height: 40px;
 	display: flex;            
 	justify-content: center;            
 	align-items: center;
 }
-.sosyal img{
+.sosyal2{
 	margin-top: 10px;
+	height: 40px;
+	display: flex;            
+	justify-content: center;            
+	align-items: center;
+}.sosyal2 img{
 	padding: 35px;
 	align-items: center;
-	width: 40px;
-	height: 40px;
+	width: 35px;
+	height: 35px;
+}
+.sosyal img{
+	padding: 35px;
+	align-items: center;
+	width: 35px;
+	height: 35px;
 }
 
+.footer1{
+	border-radius: 30px;
+}
+.footer2{ 
+	margin-left: 5%;
+}
 /* Sosyal Medya icon effekt */
 
 .icon {
@@ -543,7 +562,7 @@ img.img-top:hover {
 /* Sosyal Medya icon effekt */
 
 .altmenu hr {
-  margin-top: 35px;
+  margin-top: 30px;
   width: 55%;
   border: 0;
   border-radius: 10px;
@@ -656,25 +675,23 @@ img.img-top:hover {
 }
 .middle_baslik h3{
 	margin-top: 50px;
-	text-shadow: 0px 0px 10px #000;
 	transform:skewY(-2deg);
 	font-size: 30px;
 	font-family: 'Mochiy Pop P One', sans-serif;
 	letter-spacing: 2px;
-	color: white;
+	color: black;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-.middle_baslik p{
-	background-color: aqua;
+.middle_baslik p{	
+	padding: 30px 100px 5px 100px;
 	transform:skewY(-2deg);
-	font-size: 26px;
+	font-size: 21px;
 	letter-spacing: 1px;
-	color: white;
+	color:black;
 	font-family: 'Cabin', sans-serif;
-    text-align: center;
-	text-shadow: 0px 0px 5px #000;
+    text-align: justify;
 	margin-top: -30px;
 }
 
@@ -686,7 +703,8 @@ img.img-top:hover {
 }
 
 .kapsam2{
-  margin-top: 30px;
+  margin-top: 0px;
+  margin-bottom: 50px;
   transform:skewY(2deg);
   display: flex;
   flex-wrap: nowrap;
@@ -705,7 +723,21 @@ img.img-top:hover {
 	align-items: center;
 }
 
+.middle_baslik2 p{	
+	padding: 30px 100px 5px 100px;
+	transform:skewY(2deg);
+	font-size: 21px;
+	letter-spacing: 1px;
+	color:white;
+	font-family: 'Cabin', sans-serif;
+    text-align: justify;
+	margin-top: -30px;
+	text-shadow: 0px 0px 7px #000;
+}
+
 .why{
+	border: 3px solid black;
+	border-radius: 30px;
 	transform:skewY(0deg);
 	width: 20%;
 	height: 40%;
@@ -721,6 +753,24 @@ img.img-top:hover {
 	width: 77px;
 	height: 77px;
 	padding: 50px;
+}
+
+.marka{
+	transform:skewY(0deg);
+	width: 20%;
+	height: 40%;
+	margin: 0px auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.marka img{
+	margin-bottom:20px;
+	margin-top:-5px;
+	width: 105px;
+	height: 105px;
+	padding: 0px;
 }
 
 .metin{
@@ -741,4 +791,243 @@ img.img-top:hover {
 	border-top-left-radius: 30px;
 	border-top-right-radius: 30px;
 }
+
+/* Sosyal Medya icon effekt */
+
+.zoom {
+  display: inline-block;
+}
+
+.zoom:hover img {
+  display: none;
+}
+
+.zoom .zoom_top {
+  display: none;
+}
+
+.zoom:hover .zoom_top {
+  display: inline;
+}
+
+img.zoom_top {
+transition: transform .3s;}
+
+img.zoom_top:hover {
+transform: scale(1.25);
+}
+
+.marka_metin{
+	font-family: 'Cabin', sans-serif;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+	margin: -17px auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	letter-spacing: 1px;
+}
+
+/* Sosyal Medya icon effekt */
+
+.btn{
+	margin:-25px auto 0 auto;
+	display:table;
+}
+.button {
+  border-radius: 10px;
+  background-color: #29C012;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 26px;
+  padding: 20px;
+  width: 192px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
 /* Hakkımızda */
+
+.columns {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.main-column {
+  flex: 2;
+}
+
+.article {
+  background: mediumseagreen;
+  border: 5px solid seagreen;
+  color: white;
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+}
+.no{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: red;
+	width: 30px;
+	height:30px;
+}
+.no p{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: red;
+	width: 30px;
+	height:30px;
+}
+
+/*İletisim Sayfası*/
+
+form{
+	width: 100%;
+	height: 400px;
+	margin: 10px auto;
+	display: table; 
+	padding: 0px 250px;	margin-left: 100px;
+
+
+}
+input[type=text],textarea {
+  width: 80%;	
+  font-family: 'Cabin', sans-serif;
+  padding: 8px 13px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: 5px solid #ccc;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  outline: none;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+.btngndr {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  border-radius: 20px;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-family: 'Cabin', sans-serif;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  letter-spacing: 1px;margin-left: 150px;
+}
+.btn_gndr {	
+  background-color: white;
+  color: black;
+  border: 4px solid #ccc;
+}
+
+.btn_gndr:hover {
+  border: 4px solid #000;
+  background-color: #000;
+  color: white;
+}
+input[type=text]:focus,textarea:focus {
+  border: 4px inset #000;
+}
+
+.textareaClass{
+	resize: none;
+	height: 135px;
+}
+
+.cizgi {
+transform:skewY(-2deg);
+ margin-top: -10px;
+ margin-bottom: -25px;
+  width: 50%;
+  border: 0;
+  border-radius: 10px;
+  height: 1.2px;
+  background-image: linear-gradient(to right, #000, #000, #000);
+}
+
+.cizgi2 {
+transform:skewY(0deg);
+ margin-top: -20px;
+ margin-bottom: 10px;
+  width: 40%;
+  border: 0;
+  border-radius: 10px;
+  height: 1.2px;
+  background-image: linear-gradient(to right, #ccc, #ccc, #ccc);
+}
+
+.adres{
+	border: 1px solid #ccc;
+	border-radius: 30px;
+	padding-left: 30px;
+	margin-top: -25px;
+	width: 45%;
+	height: 65%;
+	margin-left: 20px;
+}
+.map{
+	margin-top: -25px;
+	width: 47%;
+	height: 65%;
+	margin-right: 20px;
+}
+.float-l {
+  float:left;
+}
+.float-r {
+  float:right;
+}
+
+#info{
+	font-size: 20px;
+	color: white;
+	font-family: 'Cabin', sans-serif;
+	letter-spacing: 1px;
+	padding: 3px;
+}
+/*İletisim Sayfası*/
+
+
