@@ -1025,8 +1025,8 @@ transform:skewY(0deg);
 	font-size: 20px;
 	color: white;
 	font-family: 'Cabin', sans-serif;
-	letter-spacing: 1px;
-	padding: 3px;
+	letter-spacing: 0.1px;
+	padding: 4.5px;
 }
 /*İletisim Sayfası*/
 
