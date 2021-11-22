@@ -53,14 +53,9 @@ body{
 .footer {
     clear: both;
     position: relative;
-<<<<<<< HEAD:css/stil.css
-    height: 200px;
-	bottom: 0;
-=======
     height: 245px;
 	bottom:0px;
     margin-top: 25px;
->>>>>>> origin/master:stil.css
 	background-color: black;
 }
 
@@ -353,13 +348,8 @@ body{
 	border-style: solid; 
 	border-color: #0a5d8e;
 	border-radius: 3px;
-<<<<<<< HEAD:css/stil.css
-    border-width: 0px 0px 0px 5px;
-	background-image: url("../images/banner1.jpg");
-=======
     border-width: 0px 0px 0px 7px;
 	background-image: url("banner1.jpg");
->>>>>>> origin/master:stil.css
     background-position: center;
     float:left;
 }
@@ -370,13 +360,8 @@ body{
 	border-style: solid; 
 	border-color: #000;
 	border-radius: 3px;
-<<<<<<< HEAD:css/stil.css
-    border-width: 0px 0px 0px 5px;
-	background-image: url("../images/banner3.jpg");
-=======
     border-width: 0px 0px 0px 7px;
 	background-image: url("banner3.jpg");
->>>>>>> origin/master:stil.css
     background-position: center;
     float:left;
 }
