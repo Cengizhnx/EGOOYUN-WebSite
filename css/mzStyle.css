@@ -1,0 +1,21 @@
+.mzContent{
+    width: 60%;
+    height: calc(100vh - 320px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    margin: auto;
+}
+
+.mzContent .misyon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.mzContent .misyon h2{
+    margin: 0;
+}
