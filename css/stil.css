@@ -12,6 +12,7 @@ body{
 	background: #fff;
 	/*background: #E6E1E1;
 	background: #000;*/
+	font-family: 'Mulish', sans-serif;
 }
 .koyu_mod {
   background-color: black;
@@ -141,7 +142,7 @@ body{
 }
 
 .mega_menu ul li:hover a{
-	color: #white;
+	color: white;
 	/*color: #3daaff;*/
 }
 
