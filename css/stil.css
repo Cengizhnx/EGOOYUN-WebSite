@@ -42,19 +42,6 @@ body{
 	align-items: center;
 }
 
-.sidebar {
-    width:18%;
-
-    height:600px;
-	
-	margin-top: 15px;
-	
-	margin-right: 24.5px;
-	
-    float:right;
-	
-	background-color: aqua;
-}
 .footer {
     clear: both;
     position: relative;
@@ -786,6 +773,75 @@ img.img-top:hover {
   background-image: linear-gradient(to right, #f33939, #1877F2, #00acee, #8848b4, #FF0000);
 }
 /* Footer */
+
+/*	SIDEBAR */
+
+
+.sidebar {
+    width:18%;
+    height:450px;
+	margin-top: 15px;	
+	border-left: .5px solid rgba(0,0,0, .75);
+	border-right: .5px solid rgba(0,0,0, .75);
+}
+
+.sidebar h2{
+	margin:0;
+	padding-bottom:8px;
+	padding-top:8px;
+	padding-left:10px;
+	border-bottom: 0.5px solid rgba(0,0,0, .5); 
+}
+
+.announcmentList{
+	display: flex;
+	flex-direction: column;
+}
+
+.announcment{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-left: 4px;
+	border-bottom: 1px solid rgba(0,0,0, .5);
+}
+
+.announcmentHeader{
+	padding: 24px;
+}
+
+.announcmentContent{
+	display: flex;
+	flex-direction: column;
+}
+
+.announcmentContentHeader{
+	font-size: 18px;
+}
+
+.announcmentShortContent{
+	font-size: 10px;
+}
+
+.allAnnoucments{
+	display: flex;
+	justify-content: flex-end;
+    margin-top: 16px;
+    padding-right: 10px;
+}
+
+.cols{
+	display: flex;
+	flex-direction: row;
+}
+
+.colContent{
+	width: 75%;
+	display: flex;
+    align-items: center;
+	flex-direction: column;
+}
+
 
 /* Hakkımızda */
 .aboutlogo{
