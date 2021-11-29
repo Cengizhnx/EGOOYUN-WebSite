@@ -2,557 +2,788 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>EGO OYUN | Ana Sayfa</title>
+<title>EGO OYUN</title>
 <link rel="icon" href="images/favicon64.png" type="image/x-icon">
 <link rel="stylesheet" href="css/stil.css">
 </head>
 
 <body>
-	<!-- Açılış Efekti-->
-<div id="preloader">
-	<div class="box">
-		<div class="lightbar"></div>
-		<div class="toplayer"></div> 
-		<h2>Oyunu Hisset</h2>
-	</div>
-</div>
-	<script>
-		var loader = document.getElementById("preloader");
-		window.addEventListener("load",function(){
-		loader.style.display="none";	
-		})
-
-	</script>
-	<!-- Açılış Efekti-->
-
 <div class="wrap">
-	
-	<div class="header">
-		<a href="index.html" title="Ana Sayfa">
-			<div class="logo">
-			<img src="images/egooyun_logo.png" alt="logo" class="img">			
-			</div>
-		</a>
+ 
+    <div class="header">
+<a href="index.html" title="Ana Sayfa">
+		<div class="logo">
+		<img src="images/egooyun_logo.png" alt="logo" class="img">			
+		</div>
+</a>
 		<div class="mega_menu">
-		<ul>
+<ul>
 			<li><a href="hakkimizda.html" title="Hakkımızda">Hakkımızda</a></li>
 			<li><a href="misyon-vizyon.html" title="Misyon - Vizyon">Mİsyon - Vİzyon</a></li>
 			<li><a href="urunlerimiz.html" title="Ürünlerimiz">Ürünlerİmİz</a>
 				<div class="sub_menu">
 					<div class="col">
-						<a href="index.html"><img src="images/windows.png">						<p>BİLGİSAYAR</p></a>
-	
+						<a href="bilgisayar.html"><img src="images/windows.png">						<p>BİLGİSAYAR</p></a>
+
 					</div>
 					<div class="col">
-						<a href="index.html"><img src="images/Xbox.png">
+						<a href="xbox.html"><img src="images/Xbox.png">
 						<p>XBOX</p></a>
 					</div>
 					<div class="col">
-						<a href="index.html"><img src="images/Playstation.png">
+						<a href="playstation.html"><img src="images/Playstation.png">
 						<p>&nbsp;PLAYSTATION</p></a>
 					</div>
-	
+
 				</div>
 			</li>
-			<li><a href="birimler.html" title="Birimler">Bİrİmler</a></li>
+			<li><a href="" title="Birimler">Bİrİmler</a>
+				<div class="sub_menu" style="left: 528px;">
+					<div class="col">
+						<a href="insankaynaklari.html"><img src="images/destek.png">						<p>İNSAN<br>KAYNAKLARI</p></a>
+
+					</div>
+					<div class="col">
+						<a href="teknikdestek.html"><img src="images/insan.png">
+						<p>TEKNİK<br>DESTEK</p></a>
+					</div>
+					<div class="col">
+						<a href="iade.html"><img src="images/iade.png">
+						<p>İADE VE<br>DEĞİŞİM</p></a>
+					</div>
+				</div>
+			</li>
 			<li><a href="iletisim.html" title="İletisim">İletİşİm</a></li>
 		</ul>
+			
+			<div class="hesap">
+			
+			<a href="#" class="zoom" style="text-decoration: none; margin-right: 25px" title="Favorilerim"><img src="images/home/heart.png"><img class="zoom_top" src="images/home/heart2.png"></a>
+				
+			<a href="#" class="zoom" style="text-decoration: none; margin-right: 25px" title="Hesabım"><img src="images/home/account.png"><img class="zoom_top" src="images/home/account2.png"></a>
+			
+			<a href="#" class="zoom" style="text-decoration: none;" title="Sepetim"><img src="images/home/cart.png"><img class="zoom_top" src="images/home/cart2.png"></a>
+			
+			</div>
 		</div>
 				
 		
     </div><!-- Başlık -->
 	
-	<div class="cols">
-
-		<!--CONTENT-->
-		<div class="colContent">
-			<div class="content" style="width:75%;margin-bottom: 10px;">
-				<div class="slideshow-container">
-				
-				<!-- Full-width images with number and caption text -->
-				<div class="mySlides fade">
-					<div class="numbertext"></div><a href="index.html" title="Read Dead Redemption 2" target="_blank">
-					<img src="images/rdr_slider.jpg" style="width:1080px; height: 450px;border-radius: 25px;"></a>
-				<div class="text"></div>
-				</div>
-				
-				<div class="mySlides fade">
-					<div class="numbertext"></div><a href="iletisim.html" title="FIFA 22" target="_blank">
-					<img src="images/fifa_slider.jpg" style="width:1080px; height: 450px; border-radius: 25px;"></a>
-				<div class="text"></div>
-				</div>
-				
-				<div class="mySlides fade">
-					<div class="numbertext"></div><a href="hakkimizda.html" title="Witcher 3" target="_blank">
-					<img src="images/witcher_slider.jpg" style="width:1080px; height: 450px; border-radius: 25px;"></a>
-				<div class="text"></div>
-				</div>
-					<div class="mySlides fade">
-					<div class="numbertext"></div><a href="misyon-vizyon.html" title="FARCRY 6" target="_blank">
-					<img src="images/farcry_slider.jpg" style="width:1080px; height: 450px; border-radius: 25px;"></a>
-				<div class="text"></div>
-				</div>
-					<div class="mySlides fade">
-					<div class="numbertext"></div><a href="index.html" title="Watch Dogs : Legion" target="_blank">
-					<img src="images/watchdogs_slider.jpg" style="width:1080px; height: 450px; border-radius: 25px;"></a>
-				<div class="text"></div>
-				</div>
-						<div style="text-align:center">
-				<span class="dot"></span> 
-				<span class="dot"></span> 
-				<span class="dot"></span> 
-					<span class="dot"></span> 
-				<span class="dot"></span> 
-							
-				<div class="caption-container">
-					<a href="urunlerimiz.html" style="text-decoration: none">
-					<p id="oyunadi">XBOX - Playstation Ve PC'de Yüzlerce Oyun</p>
-					<div class="caption-bar">
-					<img class="caption-img" src="images/slider/xbox.png">
-					<img class="caption-img" src="images/slider/playstation.png">
-					<img class="caption-img" src="images/slider/windows.png">
-					</div>
-					</a>
-				</div>
-				</div>
-				</div>
-				
-						
-					</div><!--  İçerik -->
-					
-					<div class="banner">
-					<h3 class="banneryazi2">SON ÇIKANLAR</h3>
-				
-					</div><!--  Banner -->
-					
-					<div class="content">
-						<div class="card">
-				
-						<span>	
-							<div style="width: 300px;height: 393px;">
-							<a href="" title="WATCH DOGS : LEGION">
-								<div class="ana_img">
-								<img src="images/home/watchdogs.jpg" style="width: 100%; height: 277.5px;">
-								</div>
-							</a>
-							
-							<div class="isim">
-							<p>WATCH DOGS : LEGION</p>
-							</div>
-							
-							<div class="yuzde float-l" style="background-color: #3daaff; border-radius: 10px;">
-							<img src="images/home/new.png" style="width: 44px; height:44px;margin: 15px;">
-							</div>
-							
-							<a href="" title="Sepete Ekle">	
-							<div class="sepet float-r" style="border-radius: 10px;">
-								<div class="fiyat float-l">
-										<div class="eski_fyt">
-											<p><del>275₺</del></p>
-										</div>
-											
-										<div class="yeni_fyt">
-											<p>137,50₺</p>
-										</div>
-								</div>
-								
-								<div class="spt_icon float-r">
-									<img src="images/home/shopping-cart.png" style="width: 25px; height:25px;margin: 15px;">
-									<img src="images/home/spblack.png" class="img_hvr" style="width: 25px; height:25px;margin: 15px;">
-								</div></a>
-				
-							</div>
-						</div>
-						</span>
-						</div>
-						
-						<div class="card">
-						<span> 
-							<div style="width: 300px;height: 393px;">
-							<a href="" title="FIFA 22">
-								<div class="ana_img">
-								<img src="images/home/fifa22.jpg" style="width: 100%; height: 277.5px; object-fit:fill">
-								</div>
-							</a>
-							
-							<div class="isim">
-							<p>FIFA 22</p>
-							</div>
-							
-							<div class="yuzde float-l" style="background-color: #3daaff; border-radius: 10px;" >
-							<img src="images/home/new.png" style="width: 44px; height:44px;margin: 15px;">
-							</div>
-							
-							<a href="" title="Sepete Ekle">	
-							<div class="sepet float-r" style="border-radius: 10px;">
-								<div class="fiyat float-l">
-										<div class="eski_fyt">
-											<p><del>275₺</del></p>
-										</div>
-											
-										<div class="yeni_fyt">
-											<p>137,50₺</p>
-										</div>
-								</div>
-								
-								<div class="spt_icon float-r">
-									<img src="images/home/shopping-cart.png" style="width: 25px; height:25px;margin: 15px;">
-									<img src="images/home/spblack.png" class="img_hvr" style="width: 25px; height:25px;margin: 15px;">
-								</div>
-								</a>
-				
-							</div>
-							</div>
-						</span>
-						</div>
-						
-						<div class="card">
-						<span> 
-							<div style="width: 300px;height: 393px;">
-							<a href="" title="ASSASINS CREED : VALHALLA">
-								<div class="ana_img">
-								<img src="images/home/ac.jpg" style="width: 100%; height: 277.5px; object-fit:cover">
-								</div>
-							</a>
-							
-							<div class="isim">
-							<p>ASSASINS CREED : VALHALLA</p>
-							</div>
-							
-							<div class="yuzde float-l" style="background-color: #3daaff; border-radius: 10px;">
-							<img src="images/home/new.png" style="width: 44px; height:44px;margin: 15px;">
-							</div>
-							
-							<a href="" title="Sepete Ekle">	
-							<div class="sepet float-r" style="border-radius: 10px;">
-								<div class="fiyat float-l">
-										<div class="eski_fyt">
-											<p><del>275₺</del></p>
-										</div>
-											
-										<div class="yeni_fyt">
-											<p>137,50₺</p>
-										</div>
-								</div>
-								
-								<div class="spt_icon float-r" >
-									<img src="images/home/shopping-cart.png" class="sss" style="width: 25px; height:25px;margin: 15px;">
-									<img src="images/home/spblack.png" class="img_hvr" style="width: 25px; height:25px;margin: 15px;">
-								</div></a>
-				
-							</div>
-							</div>	
-						</span>
-						</div>	
-					</div><!--  İçerik -->
-					
-					<div class="banner2">
-					<h3 class="banneryazi2">İNDİRİMDEKİLER</h3>
-				
-					</div><!--  Banner -->
-					
-						<div class="content">
-						<div class="card2">
-						<span>	
-							<div style="width: 300px;height: 393px;">
-							<a href="" title="FARCRY 6">
-								<div class="ana_img">
-								<img src="images/home/farcry.jpg" style="width: 100%; height: 277.5px;">
-								</div></a>
-							
-							<div class="isim">
-							<p>FARCRY 6</p>
-							</div>
-							
-							<div class="yuzde float-l" style="border-radius: 10px;">
-							<p>%25</p>
-							</div>
-							
-							<a href="" title="Sepete Ekle">	
-							<div class="sepet float-r" style="border-radius: 10px;">
-								<div class="fiyat float-l">
-										<div class="eski_fyt">
-											<p><del>350₺</del></p>
-										</div>
-											
-										<div class="yeni_fyt">
-											<p>262,50₺</p>
-										</div>
-								</div>
-								
-								<div class="spt_icon float-r">
-									<img src="images/home/shopping-cart.png" style="width: 25px; height:25px;margin: 15px;">
-									<img src="images/home/spblack.png" class="img_hvr" style="width: 25px; height:25px;margin: 15px;">
-								</div></a>
-				
-							</div>
-						</div>
-						</span>		</div>
-						
-						<div class="card2">
-						<span> 
-							<div style="width: 300px;height: 393px;">
-							<a href="" title="RED DEAD REDEMPTION 2">
-								<div class="ana_img">
-								<img src="images/home/rdr2.jpg" style="width: 100%; height: 277.5px; object-fit:cover">
-								</div>
-							</a>
-							
-							<div class="isim">
-							<p>RED DEAD REDEMPTION 2</p>
-							</div>
-							
-							<div class="yuzde float-l" style="border-radius: 10px;">
-							<p>%50</p>
-							</div>
-							
-							<a href="" title="Sepete Ekle">	
-							<div class="sepet float-r"style="border-radius: 10px;">
-								<div class="fiyat float-l">
-										<div class="eski_fyt">
-											<p><del>275₺</del></p>
-										</div>
-											
-										<div class="yeni_fyt">
-											<p>137,50₺</p>
-										</div>
-								</div>
-								
-								<div class="spt_icon float-r">
-									<img src="images/home/shopping-cart.png" style="width: 25px; height:25px;margin: 15px;">
-									<img src="images/home/spblack.png" class="img_hvr" style="width: 25px; height:25px;margin: 15px;">
-								</div>
-							</a>
-				
-							</div>
-							</div>	
-						</span>
-						</div>
-						
-						<div class="card2">
-						<span> 
-							<div style="width: 300px;height: 393px;">
-							<a href="" title="BACK 4 BLOOD">
-								<div class="ana_img">
-								<img src="images/home/back4blood.jpg" style="width: 100%; height: 277.5px; object-fit:cover">
-								</div>
-							</a>
-							
-							<div class="isim">
-							<p>BACK 4 BLOOD</p>
-							</div>
-							
-							<div class="yuzde float-l" style="border-radius: 10px;">
-							<p>%15</p>
-							</div>
-							
-							<a href="" title="Sepete Ekle">	
-							<div class="sepet float-r"style="border-radius: 10px;">
-								<div class="fiyat float-l">
-										<div class="eski_fyt">
-											<p><del>147.5₺</del></p>
-										</div>
-											
-										<div class="yeni_fyt">
-											<p>125.37₺</p>
-										</div>
-								</div>
-								
-								<div class="spt_icon float-r">
-									<img src="images/home/shopping-cart.png" style="width: 25px; height:25px;margin: 15px;">
-									<img src="images/home/spblack.png" class="img_hvr" style="width: 25px; height:25px;margin: 15px;">
-								</div></a>
-				
-							</div>
-							</div>	
-						</span>
-						</div>	
-					</div><!--  İçerik -->    
-					
-					<a href="urunlerimiz.html"><div class="banner5">
-					<h3 class="banneryazi">ŞİMDİYE KADAR Kİ EN BÜYÜK İNDİRİM !</h3>
-					</div></a>
-					
-					<div class="banner3">
-					<h3 class="banneryazi2">ESKİ AMA ALTIN</h3>
-				
-					</div><!--  Banner -->
-					
-						<div class="content">
-						<div class="card3">
-						<span>	
-							<div style="width: 300px;height: 393px;">
-							<a href="" title="MAFIA 2">
-								<div class="ana_img">
-								<img src="images/home/mafia.jpg" style="width: 100%; height: 277.5px;">
-								</div></a>
-							
-							<div class="isim">
-							<p>MAFIA 2</p>
-							</div>
-							
-							<div class="yuzde float-l" style="background-color: #FFD700 ;border-radius: 10px;">
-							<img src="images/home/king.png" style="width: 35px; height:35px;margin: 15px;">
-							</div>
-							
-							<a href="" title="Sepete Ekle !">	
-							<div class="sepet float-r"style="border-radius: 10px;">
-								<div class="fiyat float-l">
-										<div class="eski_fyt">
-											<p><del>350₺</del></p>
-										</div>
-											
-										<div class="yeni_fyt">
-											<p>262,50₺</p>
-										</div>
-								</div>
-								
-								<div class="spt_icon float-r">
-									<img src="images/home/shopping-cart.png" style="width: 25px; height:25px;margin: 15px;">
-									<img src="images/home/spblack.png" class="img_hvr" style="width: 25px; height:25px;margin: 15px;">
-								</div></a>
-				
-							</div>
-						</div>
-						</span>		</div>
-						
-						<div class="card3">
-						<span> 
-							<div style="width: 300px;height: 393px;">
-							<a href="" title="GTA SAN ANDREAS">
-								<div class="ana_img">
-								<img src="images/home/gta.jpg" style="width: 100%; height: 277.5px; object-fit:cover">
-								</div>
-							</a>
-							
-							<div class="isim">
-							<p>GTA SAN ANDREAS</p>
-							</div>
-							
-							<div class="yuzde float-l" style="background-color: #FFD700;border-radius: 10px;">
-							<img src="images/home/king.png" style="width: 35px; height:35px;margin: 15px;">
-							</div>
-							
-							<a href="" title="Sepete Ekle !">	
-							<div class="sepet float-r" style="border-radius: 10px;">
-								<div class="fiyat float-l">
-										<div class="eski_fyt">
-											<p><del>275₺</del></p>
-										</div>
-											
-										<div class="yeni_fyt">
-											<p>137,50₺</p>
-										</div>
-								</div>
-								
-								<div class="spt_icon float-r">
-									<img src="images/home/shopping-cart.png" style="width: 25px; height:25px;margin: 15px;">
-									<img src="images/home/spblack.png" class="img_hvr" style="width: 25px; height:25px;margin: 15px;">
-								</div>
-							</a>
-				
-							</div>
-							</div>	
-						</span>
-						</div>
-						
-						<div class="card3">
-						<span> 
-							<div style="width: 300px;height: 393px;">
-							<a href="" title="NFS : MOST WANTED">
-								<div class="ana_img">
-								<img src="images/home/nfs.jpg" style="width: 100%; height: 277.5px; object-fit:cover">
-								</div>
-							</a>
-							
-							<div class="isim">
-							<p>NFS : MOST WANTED</p>
-							</div>
-							
-							<div class="yuzde float-l" style="background-color: #FFD700;border-radius: 10px;">
-							<img src="images/home/king.png" style="width: 35px; height:35px;margin: 15px;">
-							</div>
-							
-							<a href="" title="Sepete Ekle !">	
-							<div class="sepet float-r"style="border-radius: 10px;">
-								<div class="fiyat float-l">
-										<div class="eski_fyt">
-											<p><del>147.5₺</del></p>
-										</div>
-											
-										<div class="yeni_fyt">
-											<p>125.37₺</p>
-										</div>
-								</div>
-								
-								<div class="spt_icon float-r">
-									<img src="images/home/shopping-cart.png" style="width: 25px; height:25px;margin: 15px;">
-									<img src="images/home/spblack.png" class="img_hvr" style="width: 25px; height:25px;margin: 15px;">
-								</div></a>
-				
-							</div>
-							</div>	
-						</span>
-						</div>	
-					</div><!--  İçerik -->
-
+	<div class="sidebar" style="margin-right: 40px; background-color: black;width:20%;">
+		<div class="duyuru_baslik">
+		<h2>SON HABERLER</h2>
 		</div>
-		<!--SIDEBAR-->
-		<div class="sidebar">
-			<h2>DUYURULAR</h2>
-			<div class="announcmentList">
-				<div class="announcment">
-					<div class="announcmentHeader">
-						<label>1</label>
-					</div>
-					<div class="announcmentContent">
-						<label class="announcmentContentHeader">Duyuru Başlığı 1</label>
-						<label class="announcmentShortContent">Duyuru Kısa İçeriği 1</label>
-					</div>
-				</div>
-				<div class="announcment">
-					<div class="announcmentHeader">
-						<label>2</label>
-					</div>
-					<div class="announcmentContent">
-						<label class="announcmentContentHeader">Duyuru Başlığı 2</label>
-						<label class="announcmentShortContent">Duyuru Kısa İçeriği 2</label>
-					</div>
-				</div>
-				<div class="announcment">
-					<div class="announcmentHeader">
-						<label>3</label>
-					</div>
-					<div class="announcmentContent">
-						<label class="announcmentContentHeader">Duyuru Başlığı 3</label>
-						<label class="announcmentShortContent">Duyuru Kısa İçeriği 3</label>
-					</div>
-				</div>
-				<div class="announcment">
-					<div class="announcmentHeader">
-						<label>4</label>
-					</div>
-					<div class="announcmentContent">
-						<label class="announcmentContentHeader">Duyuru Başlığı 4</label>
-						<label class="announcmentShortContent">Duyuru Kısa İçeriği 4 </label>
-					</div>
-				</div>
-				<div class="announcment">
-					<div class="announcmentHeader">
-						<label>5</label>
-					</div>
-					<div class="announcmentContent">
-						<label class="announcmentContentHeader">Duyuru Başlığı 5</label>
-						<label class="announcmentShortContent">Duyuru Kısa İçeriği 5 </label>
-					</div>
-				</div>
+		<hr>
+		
+		<label for="contract-popup5" style="cursor: pointer" title="İncele">
+		<div class="icerik">
+ 		<div class="no">
+			<img src="images/urunler/Black-Friday-image.jpg">
+		</div>
+			
+		<div class="bilgi">
+			<div class="duyuru_adi">
+			<p>MUHTEŞEM CUMA 🔥</p>
 			</div>
-			<div class="allAnnoucments">
-				<a href="annoucments.html">Tüm Duyurular ></a>
+			<div class="duyuru_detay">
+			<p>%50'ye varan fırsatlarla Muhteşem Cuma indirimi başladı !</p>
 			</div>
 		</div>
+		</div>
+		</label>
+		
+		<hr class="duyuru_hr">
+		
+		<label for="contract-popup4" style="cursor: pointer" title="İncele">
+		<div class="icerik">
+ 		<div class="no">
+			<img src="images/home/fifa22.jpg">
+		</div>
+			
+		<div class="bilgi">
+			<div class="duyuru_adi">
+			<p>YENİ OYUN ! ⚽️</p>
+			</div>
+			<div class="duyuru_detay">
+			<p>FIFA 22 Çıktı.<br> Hemen satın al !</p>
+			</div>
+		</div>
+		</div>
+		</label>
+		
+		<hr class="duyuru_hr">
+		
+		<label for="contract-popup3" style="cursor: pointer" title="İncele">
+		<div class="icerik">
+ 		<div class="no">
+			<img src="images/home/ac.jpg">
+		</div>
+			
+		<div class="bilgi">
+			<div class="duyuru_adi">
+			<p>KAMPANYA 🆕</p>
+			</div>
+			<div class="duyuru_detay">
+			<p>Şeçeceğin 2 oyuna ek Assasins Creed: Valhalla Hediye !</p>
+			</div>
+		</div>
+		</div>
+		</label>
 
+		
+		<hr class="duyuru_hr">
+		
+		<label for="contract-popup2" style="cursor: pointer" title="İncele">
+		<div class="icerik">
+ 		<div class="no">
+			<img src="images/home/farcry.jpg">
+		</div>
+			
+		<div class="bilgi">
+			<div class="duyuru_adi">
+			<p>İNDİRİM ⌛</p>
+			</div>
+			<div class="duyuru_detay">
+			<p>FARCRY 6, %25 indirimle sadece EGO OYUN'da.</p>
+			</div>
+		</div>
+		</div>
+		</label>
+		
+		<hr class="duyuru_hr">
+		
+		<label for="contract-popup" style="cursor: pointer" title="İncele">
+		<div class="icerik">
+ 		<div class="no">
+		<img src="images/urunler/nba.jpg">
+		</div>
+			
+		<div class="bilgi">
+			<div class="duyuru_adi">
+			<p>YENİ OYUN ! 🏀</p>
+			</div>
+			<div class="duyuru_detay">
+			<p>NBA 2K22 Çıktı.<br> Hemen satın al !</p>
+			</div>
+		</div>
+		</div></label>
+		
+		<div class="dahafazla">
+		<a href="duyurular.html">▶️ Daha Fazla</a>
+		</div>
+		
+	<div class="popup-container">
+	<input type="checkbox" id="contract-popup">
+	<div class="popup">
+		<label for="contract-popup"></label>
+		<div class="inner">
+			<div class="title">
+				<h6>YENİ OYUN ! 🏀</h6>
+				
+				<div class="close-btn">
+					<label for="contract-popup" title="Kapat">
+						X
+					</label>
+				</div>
+			</div>
+		
+			<div class="content">	
+				<div class="duyuru_foto" >
+				<img src="images/urunler/nba.jpg">
+				</div>
+				<p>
+					Basketbol tutkunlarının saha dışındaki aktivitelerinden biri NBA oynamak. Electronic Arts’ın geliştirdiği NBA video oyunu en sevilen 2K Games yapımları arasında. Kendini kanıtlayan bu spor oyununun 2022 ayağı olan 
+					<span style="font-weight: 600">NBA 2K22, çıktı !</span>
+					
+					<br><br>
+					Şimdi en uygun fiyatıyla sadece <span style="font-weight: 600">EGO OYUN'da !</span> 🎮
+					
+					<br><br><br>
+					
+					▶️<a href="nba.html" id="duyuru_link">Hemen Satın Al ! </a>
+				</p>
+
+			</div>
+			
+		</div>
 	</div>
+</div>
+		
+	<div class="popup-container">
+	<input type="checkbox" id="contract-popup2">
+	<div class="popup">
+		<label for="contract-popup2"></label>
+		<div class="inner">
+			<div class="title">
+				<h6>İNDİRİM ⌛</h6>
+				
+				<div class="close-btn">
+					<label for="contract-popup2" title="Kapat">
+						X
+					</label>
+				</div>
+			</div>
+		
+			<div class="content">	
+				<div class="duyuru_foto" >
+				<img src="images/home/farcry.jpg">
+				</div>
+				<p>
+					Başkan Anton Castillo (Esposito), oğlu Diego'yu (Gonzalez) onun ayak izlerini takip etmesi için yetiştirirken ülkesini eski ihtişamına kavuşturmaya yemin eder ve ... <br><br>
+					<span style="font-weight: 600">Devamını merak ediyorsan bu fırsatı kaçırma !</span>
+					
+					<br><br>
+					Far Cry 6<span style="font-weight: 700"> %25</span> indirmle sadece <span style="font-weight: 700">EGO OYUN'da !</span> 🎮
+					
+					<br><br>
+					
+					▶️<a href="farcry.html" id="duyuru_link">Hemen Satın Al ! </a>
+				</p>
+
+			</div>
+			
+		</div>
+	</div>
+</div>
+		
+		<div class="popup-container">
+	<input type="checkbox" id="contract-popup3">
+	<div class="popup">
+		<label for="contract-popup3"></label>
+		<div class="inner">
+			<div class="title">
+				<h6>KAMPANYA 🆕</h6>
+				
+				<div class="close-btn">
+					<label for="contract-popup3" title="Kapat">
+						X
+					</label>
+				</div>
+			</div>
+		
+			<div class="content">	
+				<div class="duyuru_foto" >
+				<img src="images/home/ac.jpg">
+				</div>
+				<p>
+					 Vikingler çağında İngiltere, küçük lordların ve savaşan krallıkların parçalanmış bir ulusudur. Kaosun altında yeni bir fatihi bekleyen zengin ve evcilleşmemiş bir ülke yatıyor.<br><br>
+					
+					 EGO OYUN'da seçeceğin 2 oyuna ek olarak <span style="font-weight: 600">Assasins Creed: Valhalla Hediye !</span>
+					
+					<br><br>
+					
+					▶️<a href="urunlerimiz.html" id="duyuru_link">Hemen Satın Al ! </a>
+				</p>
+
+			</div>
+			
+		</div>
+	</div>
+</div>
+		
+	<div class="popup-container">
+	<input type="checkbox" id="contract-popup4">
+	<div class="popup">
+		<label for="contract-popup4"></label>
+		<div class="inner">
+			<div class="title">
+				<h6>YENİ OYUN ! ⚽️</h6>
+				
+				<div class="close-btn">
+					<label for="contract-popup4" title="Kapat">
+						X
+					</label>
+				</div>
+			</div>
+		
+			<div class="content">	
+				<div class="duyuru_foto" >
+				<img src="images/home/fifa22.jpg">
+				</div>
+				<p>
+					 EA Sports tarafından geliştirilen, oyuncular tarafından oldukça ilgi gören FIFA serisinin en yeni oyunu  <span style="font-weight: 600">FIFA 22</span>; Volta, Ultimate Team ve Kariyer gibi farklı modlarında çeşitli yenilikler ve iyileştirmelerle satışta !<br><br>
+					
+					 Şimdi en uygun fiyatıyla sadece<span style="font-weight: 600"> EGO OYUN'da ! 🎮</span>
+					
+					<br><br>
+					
+					▶️<a href="fifa.html" id="duyuru_link">Hemen Satın Al ! </a>
+				</p>
+
+			</div>
+			
+		</div>
+	</div>
+</div>
+		
+		<div class="popup-container">
+	<input type="checkbox" id="contract-popup5">
+	<div class="popup">
+		<label for="contract-popup5"></label>
+		<div class="inner">
+			<div class="title">
+				<h6>MUHTEŞEM CUMA 🔥</h6>
+				
+				<div class="close-btn">
+					<label for="contract-popup5">
+						X
+					</label>
+				</div>
+			</div>
+		
+			<div class="content">	
+				<div class="duyuru_foto" >
+				<img src="images/urunler/Black-Friday-image.jpg">
+				</div>
+				<p>
+					 Tatil sezonuna hızlı bir giriş yap ve yalnızca sırayı geçmekle kalma, sıradan tamamen kurtul! Pek çoğu ilk kez indirime giren oyunlara ve<span style="font-weight: 600"> %50'e </span>varan bu muhteşem indirimlere göz at. <br><br>
+					
+					 Teklifler 30 Kasım'da sona eriyor.<span style="font-weight: 600"> Acele Et ! 🏃</span>
+					
+					<br><br>
+					
+					🔎<a href="urunlerimiz.html" id="duyuru_link"> Göz At ! </a>
+				</p>
+
+			</div>
+			
+		</div>
+	</div>
+</div>
+		
+	</div><!-- Sidebar -->
+	
+
+    <div class="content" style="width:75%;margin-bottom: 10px;">
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext"></div><a href="rdr.html" title="Read Dead Redemption 2" target="_blank">
+    <img src="images/slider/rdr_slider.jpg" style="width:1080px; height: 450px;border-radius: 25px;"></a>
+ <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div><a href="fifa.html" title="FIFA 22" target="_blank">
+       <img src="images/slider/fifa_slider.jpg" style="width:1080px; height: 450px; border-radius: 25px;"></a>
+<div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div><a href="acv.html" title="ASSASINS CREED : VALHALLA" target="_blank">
+    <img src="images/slider/ac.jpg" style="width:1080px; height: 450px; border-radius: 25px;"></a>
+<div class="text"></div>
+  </div>
+	<div class="mySlides fade">
+    <div class="numbertext"></div><a href="farcry.html" title="FARCRY 6" target="_blank">
+    <img src="images/slider/farcry_slider.jpg" style="width:1080px; height: 450px; border-radius: 25px;"></a>
+<div class="text"></div>
+  </div>
+	<div class="mySlides fade">
+    <div class="numbertext"></div><a href="watchdogs.html" title="Watch Dogs : Legion" target="_blank">
+    <img src="images/slider/watchdogs_slider.jpg" style="width:1080px; height: 450px; border-radius: 25px;"></a>
+<div class="text"></div>
+  </div>
+		<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+	  <span class="dot"></span> 
+  <span class="dot"></span> 
+			
+  <div class="caption-container">
+	  <a href="urunlerimiz.html" style="text-decoration: none"target="_blank">
+    <p id="oyunadi">XBOX - Playstation Ve PC'de Yüzlerce Oyun</p>
+	  <div class="caption-bar">
+	  <img class="caption-img" src="images/slider/xbox.png">
+	  <img class="caption-img" src="images/slider/playstation.png">
+	  <img class="caption-img" src="images/slider/windows.png">
+	  </div>
+	  </a>
+  </div>
+</div>
+</div>
+
+		
+    </div><!--  İçerik -->
+	
+	<div class="banner">
+	<h3 class="banneryazi2">SON ÇIKANLAR</h3>
+
+    </div><!--  Banner -->
+	
+	<div class="content" style="width: 72%; margin-left: 67px;">
+		<div class="card">
+
+		<span>	
+			<div style="width: 300px;height: 393px;">
+			<a href="watchdogs.html" title="WATCH DOGS : LEGION">
+				<div class="ana_img">
+				<img src="images/home/watchdogs.jpg" style="width: 100%; height: 277.5px;">
+				</div>
+			</a>
+			
+			<div class="isim">
+			<p>WATCH DOGS : LEGION</p>
+			</div>
+			
+			<div class="yuzde float-l" style="background-color: #3daaff; border-radius: 10px;">
+			<img src="images/home/new.png" style="width: 44px; height:44px;margin: 15px;">
+			</div>
+			
+			<a href="watchdogs.html" title="Sepete Ekle">	
+			<div class="sepet float-r" style="border-radius: 10px;">
+				<div class="fiyat float-l">
+						<div class="eski_fyt">
+							<p><del>300₺</del></p>
+						</div>
+							
+					    <div class="yeni_fyt">
+							<p>225,90₺</p>
+						</div>
+				</div>
+				
+				<div class="spt_icon float-r">
+					<img src="images/home/shopping-cart.png" style="width: 25px; height:25px;margin: 15px;">
+					<img src="images/home/spblack.png" class="img_hvr" style="width: 25px; height:25px;margin: 15px;">
+				</div></a>
+
+			</div>
+		</div>
+		</span>
+		</div>
+		
+		<div class="card">
+		<span> 
+			<div style="width: 300px;height: 393px;">
+			<a href="fifa.html" title="FIFA 22">
+				<div class="ana_img">
+				<img src="images/home/fifa22.jpg" style="width: 100%; height: 277.5px; object-fit:fill">
+				</div>
+			</a>
+			
+			<div class="isim">
+			<p>FIFA 22</p>
+			</div>
+			
+			<div class="yuzde float-l" style="background-color: #3daaff; border-radius: 10px;" >
+			<img src="images/home/new.png" style="width: 44px; height:44px;margin: 15px;">
+			</div>
+			
+			<a href="fifa.html" title="Sepete Ekle">	
+			<div class="sepet float-r" style="border-radius: 10px;">
+				<div class="fiyat float-l">
+						<div class="eski_fyt">
+							<p><del>450₺</del></p>
+						</div>
+							
+					    <div class="yeni_fyt">
+							<p>315,65₺</p>
+						</div>
+				</div>
+				
+				<div class="spt_icon float-r">
+					<img src="images/home/shopping-cart.png" style="width: 25px; height:25px;margin: 15px;">
+					<img src="images/home/spblack.png" class="img_hvr" style="width: 25px; height:25px;margin: 15px;">
+				</div>
+				</a>
+
+			</div>
+			</div>
+		</span>
+		</div>
+		
+		<div class="card">
+		<span> 
+			<div style="width: 300px;height: 393px;">
+			<a href="acv.html" title="ASSASINS CREED : VALHALLA">
+				<div class="ana_img">
+				<img src="images/home/ac.jpg" style="width: 100%; height: 277.5px; object-fit:cover">
+				</div>
+			</a>
+			
+			<div class="isim">
+			<p>ASSASINS CREED : VALHALLA</p>
+			</div>
+			
+			<div class="yuzde float-l" style="background-color: #3daaff; border-radius: 10px;">
+			<img src="images/home/new.png" style="width: 44px; height:44px;margin: 15px;">
+			</div>
+			
+			<a href="acv.html" title="Sepete Ekle">	
+			<div class="sepet float-r" style="border-radius: 10px;">
+				<div class="fiyat float-l">
+						<div class="eski_fyt">
+							<p><del>250.5₺</del></p>
+						</div>
+							
+					    <div class="yeni_fyt">
+							<p>187,80₺</p>
+						</div>
+				</div>
+				
+				<div class="spt_icon float-r" >
+					<img src="images/home/shopping-cart.png" class="sss" style="width: 25px; height:25px;margin: 15px;">
+					<img src="images/home/spblack.png" class="img_hvr" style="width: 25px; height:25px;margin: 15px;">
+				</div></a>
+
+			</div>
+			</div>	
+		</span>
+		</div>	
+    </div><!--  İçerik -->
+	
+	<div class="banner2">
+	<h3 class="banneryazi2">İNDİRİMDEKİLER</h3>
+
+    </div><!--  Banner -->
+	
+		<div class="content">
+		<div class="card2">
+		<span>	
+			<div style="width: 300px;height: 393px;">
+			<a href="farcry.html" title="FARCRY 6">
+				<div class="ana_img">
+				<img src="images/home/farcry.jpg" style="width: 100%; height: 277.5px;">
+				</div></a>
+			
+			<div class="isim">
+			<p>FAR CRY 6</p>
+			</div>
+			
+			<div class="yuzde float-l" style="border-radius: 10px;">
+			<p>%25</p>
+			</div>
+			
+			<a href="farcry.html" title="Sepete Ekle">	
+			<div class="sepet float-r" style="border-radius: 10px;">
+				<div class="fiyat float-l">
+						<div class="eski_fyt">
+							<p><del>350₺</del></p>
+						</div>
+							
+					    <div class="yeni_fyt">
+							<p>262,50₺</p>
+						</div>
+				</div>
+				
+				<div class="spt_icon float-r">
+					<img src="images/home/shopping-cart.png" style="width: 25px; height:25px;margin: 15px;">
+					<img src="images/home/spblack.png" class="img_hvr" style="width: 25px; height:25px;margin: 15px;">
+				</div></a>
+
+			</div>
+		</div>
+		</span>		</div>
+		
+		<div class="card2">
+		<span> 
+			<div style="width: 300px;height: 393px;">
+			<a href="rdr.html" title="RED DEAD REDEMPTION 2">
+				<div class="ana_img">
+				<img src="images/home/rdr2.jpg" style="width: 100%; height: 277.5px; object-fit:cover">
+				</div>
+			</a>
+			
+			<div class="isim">
+			<p>RED DEAD REDEMPTION 2</p>
+			</div>
+			
+			<div class="yuzde float-l" style="border-radius: 10px;">
+			<p>%50</p>
+			</div>
+			
+			<a href="rdr.html" title="Sepete Ekle">	
+			<div class="sepet float-r"style="border-radius: 10px;">
+				<div class="fiyat float-l">
+						<div class="eski_fyt">
+							<p><del>275₺</del></p>
+						</div>
+							
+					    <div class="yeni_fyt">
+							<p>137,50₺</p>
+						</div>
+				</div>
+				
+				<div class="spt_icon float-r">
+					<img src="images/home/shopping-cart.png" style="width: 25px; height:25px;margin: 15px;">
+					<img src="images/home/spblack.png" class="img_hvr" style="width: 25px; height:25px;margin: 15px;">
+				</div>
+			</a>
+
+			</div>
+			</div>	
+		</span>
+		</div>
+		
+		<div class="card2">
+		<span> 
+			<div style="width: 300px;height: 393px;">
+			<a href="back.html" title="BACK 4 BLOOD">
+				<div class="ana_img">
+				<img src="images/home/back4blood.jpg" style="width: 100%; height: 277.5px; object-fit:cover">
+				</div>
+			</a>
+			
+			<div class="isim">
+			<p>BACK 4 BLOOD</p>
+			</div>
+			
+			<div class="yuzde float-l" style="border-radius: 10px;">
+			<p>%15</p>
+			</div>
+			
+			<a href="back.html" title="Sepete Ekle">	
+			<div class="sepet float-r"style="border-radius: 10px;">
+				<div class="fiyat float-l">
+						<div class="eski_fyt">
+							<p><del>147,5₺</del></p>
+						</div>
+							
+					    <div class="yeni_fyt">
+							<p>125,37₺</p>
+						</div>
+				</div>
+				
+				<div class="spt_icon float-r">
+					<img src="images/home/shopping-cart.png" style="width: 25px; height:25px;margin: 15px;">
+					<img src="images/home/spblack.png" class="img_hvr" style="width: 25px; height:25px;margin: 15px;">
+				</div></a>
+
+			</div>
+			</div>	
+		</span>
+		</div>	
+    </div><!--  İçerik -->    
+	
+	<a href="urunlerimiz.html"><div class="banner5">
+	<h3 class="banneryazi">%50' YE VARAN İNDİRİM FIRSATI !</h3>
+    </div></a>
+	
+	<div class="banner3">
+	<h3 class="banneryazi2">ESKİ AMA ALTIN</h3>
+
+    </div><!--  Banner -->
+	
+		<div class="content">
+		<div class="card3">
+		<span>	
+			<div style="width: 300px;height: 393px;">
+			<a href="mafia.html" title="MAFIA 2">
+				<div class="ana_img">
+				<img src="images/home/mafia.jpg" style="width: 100%; height: 277.5px;">
+				</div></a>
+			
+			<div class="isim">
+			<p>MAFIA 2</p>
+			</div>
+			
+			<div class="yuzde float-l" style="background-color: #FFD700 ;border-radius: 10px;">
+			<img src="images/home/king.png" style="width: 35px; height:35px;margin: 15px;">
+			</div>
+			
+			<a href="mafia.html" title="Sepete Ekle !">	
+			<div class="sepet float-r"style="border-radius: 10px;">
+				<div class="fiyat float-l">
+						<div class="eski_fyt">
+							<p><del>100₺</del></p>
+						</div>
+							
+					    <div class="yeni_fyt">
+							<p>57,50₺</p>
+						</div>
+				</div>
+				
+				<div class="spt_icon float-r">
+					<img src="images/home/shopping-cart.png" style="width: 25px; height:25px;margin: 15px;">
+					<img src="images/home/spblack.png" class="img_hvr" style="width: 25px; height:25px;margin: 15px;">
+				</div></a>
+
+			</div>
+		</div>
+		</span>		</div>
+		
+		<div class="card3">
+		<span> 
+			<div style="width: 300px;height: 393px;">
+			<a href="gta.html" title="GTA SAN ANDREAS">
+				<div class="ana_img">
+				<img src="images/home/gta.jpg" style="width: 100%; height: 277.5px; object-fit:cover">
+				</div>
+			</a>
+			
+			<div class="isim">
+			<p>GTA SAN ANDREAS</p>
+			</div>
+			
+			<div class="yuzde float-l" style="background-color: #FFD700;border-radius: 10px;">
+			<img src="images/home/king.png" style="width: 35px; height:35px;margin: 15px;">
+			</div>
+			
+			<a href="gta.html" title="Sepete Ekle !">	
+			<div class="sepet float-r" style="border-radius: 10px;">
+				<div class="fiyat float-l">
+						<div class="eski_fyt">
+							<p><del>175.5₺</del></p>
+						</div>
+							
+					    <div class="yeni_fyt">
+							<p>116,29₺</p>
+						</div>
+				</div>
+				
+				<div class="spt_icon float-r">
+					<img src="images/home/shopping-cart.png" style="width: 25px; height:25px;margin: 15px;">
+					<img src="images/home/spblack.png" class="img_hvr" style="width: 25px; height:25px;margin: 15px;">
+				</div>
+			</a>
+
+			</div>
+			</div>	
+		</span>
+		</div>
+		
+		<div class="card3">
+		<span> 
+			<div style="width: 300px;height: 393px;">
+			<a href="nfs.html" title="NFS : MOST WANTED">
+				<div class="ana_img">
+				<img src="images/home/nfs.jpg" style="width: 100%; height: 277.5px; object-fit:cover">
+				</div>
+			</a>
+			
+			<div class="isim">
+			<p>NFS : MOST WANTED</p>
+			</div>
+			
+			<div class="yuzde float-l" style="background-color: #FFD700;border-radius: 10px;">
+			<img src="images/home/king.png" style="width: 35px; height:35px;margin: 15px;">
+			</div>
+			
+			<a href="nfs.html" title="Sepete Ekle !">	
+			<div class="sepet float-r"style="border-radius: 10px;">
+				<div class="fiyat float-l">
+						<div class="eski_fyt">
+							<p><del>103,8₺</del></p>
+						</div>
+							
+					    <div class="yeni_fyt">
+							<p>47,83₺</p>
+						</div>
+				</div>
+				
+				<div class="spt_icon float-r">
+					<img src="images/home/shopping-cart.png" style="width: 25px; height:25px;margin: 15px;">
+					<img src="images/home/spblack.png" class="img_hvr" style="width: 25px; height:25px;margin: 15px;">
+				</div></a>
+
+			</div>
+			</div>	
+		</span>
+		</div>	
+    </div><!--  İçerik -->
 	
 	
     <div class="footer">
@@ -579,7 +810,7 @@
 		<div class="footer2 float-r">
 			<div style="margin-top: 30px">
 			<p style="color: white; font-size: 13.5px; letter-spacing: 0.3px; font-family: 'Mulish', sans-serif;"><img src="images/footer/pin.png" style="width: 20px; height: 20px">&nbsp;&nbsp;&nbsp;Kocaeli Ünv. Kampüsü No:2,41000 İzmit/Kocaeli</p>
-			<p style="color: white; font-size: 13.5px; letter-spacing: 0.3px; font-family: 'Mulish', sans-serif;"><img src="images/footer/phone.png" style="width: 20px; height: 20px">&nbsp;&nbsp;&nbsp;+90 555 55 55</p></div>		
+			<p style="color: white; font-size: 13.5px; letter-spacing: 0.3px; font-family: 'Mulish', sans-serif;"><img src="images/footer/phone.png" style="width: 20px; height: 20px">&nbsp;&nbsp;&nbsp;+90 555 555 55 55</p></div>		
 			</div>
 
     </div><!-- Alt bilgi -->
@@ -604,9 +835,8 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 3500); // Change image every 2 seconds
+  setTimeout(showSlides, 3500); // 3.5 saniyede değişicek
 }
-
 
 </script>
 	
