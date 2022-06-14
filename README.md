@@ -1,4 +1,4 @@
-# EGOOYUN Dijital Oyun Satış Sitesi
+# EGOOYUN Dijital Oyun Satış Sitesi (Non-Responsive - Static)
 
 ## Ana Sayfa
 
