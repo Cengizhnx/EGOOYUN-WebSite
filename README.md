@@ -1,18 +1,18 @@
-EGOOYUN Dijital Oyun Satış Sitesi
+# EGOOYUN Dijital Oyun Satış Sitesi
 
-Ana Sayfa
+## Ana Sayfa
 
 ![alt](images/ss/1.JPG)
 
-Ürünler
+## Ürünler
 
 ![alt](images/ss/2.JPG)
  
-Duyurular
+## Duyurular
 
 ![alt](images/ss/3.JPG)
 
-Ürün Detay
+## Ürün Detay
 
 ![alt](images/ss/4.JPG)
 
