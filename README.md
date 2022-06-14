@@ -1,6 +1,5 @@
 # EGOOYUN Dijital Oyun Satış Sitesi (Non-Responsive - Static)
 
-# egooyun.herokuapp.com
 
 ## Ana Sayfa
 
